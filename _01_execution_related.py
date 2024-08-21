@@ -561,12 +561,10 @@ if __name__ == '__main__':
     cp_raise_error = True
 
     # directory specification
-    dir = 'C:/Users/Sky/Desktop/FYP - SSM/Shuqiao feb ver/Measure_Auto/00_stls'
+    dir = 'C:/Measure_Auto/00_stls'
 
     # test file if test mode
     f_in = './00_stls/surface_scan/f_002_lol_07.stl'
-
-    # f_in = 'C:/Users/Sky/Desktop/FYP - SSM/STL from SQ harddrive/NMDID/From ruonan group/bin/TL/m_121343_TL.stl'
 
     files = os.listdir(dir)
     print(files)
