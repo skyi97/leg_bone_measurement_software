@@ -10,4 +10,10 @@ VTK object held the model in the form of point cloud holding the 3D coordinates 
 
 Numpy library was used to interact with the 2D array and perform mathematical analysis 
 
+_01_execution_related.py contains the execution script. It handles the process of loading the STL file and converting it to VTK object for handling, identifying landmarks on bones and calling functions from _02_femur_functions and _02_tibia_functions to measure the bone parameters and output the result to a .csv file
 
+_02_femur_functions.py contains functions that are intended to be used for STL files of femur bones only. Functions here will receive VTK object that are segments of the femur and identify landmarks on the femur to perform measurements 
+
+_02_tibia_functions.py contains functions to measure tibia parameters. 
+
+_03_misc_functions.py contains functions used by femur and tibia measurement functtions. These misc functions uses mathematical methods such as circle fitting that are needed to find parameters. 
