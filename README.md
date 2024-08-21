@@ -20,4 +20,4 @@ contains functions that are intended to be used for STL files of femur bones onl
 contains functions to measure tibia parameters. 
 
 # _03_misc_functions.py 
-contains functions used by femur and tibia measurement functtions. These misc functions uses mathematical methods such as circle fitting that are needed to find parameters. 
+contains functions used by femur and tibia measurement functtions. These misc functions uses mathematical methods such as circle fitting that are needed to find parameters on the bones. Uses scipy, matplotlib  
