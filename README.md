@@ -1,4 +1,4 @@
-This repository contains codes developed during my final year research project. 
+This repository contains codes developed during my final year research project from 2021 - 2022. 
 The research project aimed to investigate anatomical variation in human leg bones between different population group.
 To acheive the object, codes in this repository was developed to automate the process of measuring different parameters such as dimensions and angles that are used by academics to study the leg bones.
 The below code was used to process 464 femur and tibia bones and measured 19 different parameters on femurs and tibia. 
