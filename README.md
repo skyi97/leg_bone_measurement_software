@@ -10,20 +10,23 @@ The below code was used to process 464 femur and tibia bones and measured 19 dif
 
 The resultsing measurements were used to perform stastical analysis. Statistical  indicated difference between population groups does exist.
 
-The codes in this library is intended to be used with VTK library which loads 3D models of leg bones STL file format and create VTK objects to allow manipulations actions such as rotation and translation.
+# About the Code
+The codes in this repository is intended to only showcase my skills and experience in development, and will not run properly as it has other owned dependeices that was omitted on purpose.
 
-VTK object held the model in the form of point cloud holding the 3D coordinates of each points in 2D array
+The program written for this research used framework developed in-house that utilised Python implementation of the VTK (Visualisation Toolkit) library that was used to read the 3D model of the bones to allow manipulation. 
 
-Numpy library was used to interact with the 2D array and perform mathematical analysis 
+The loaded bone was represented in 2D array format that represents each coordinates of the of the 3D surface mesh.
 
-# _01_execution_related.py 
+Numpy library was used to work with this corrdinates to identify bone landmarks and perform measurements.
+
+## _01_execution_related.py 
 contains the execution script. It handles the process of loading the STL file and converting it to VTK object for handling, identifying landmarks on bones and calling functions from _02_femur_functions and _02_tibia_functions to measure the bone parameters and output the result to a .csv file
 
-# _02_femur_functions.py 
+## _02_femur_functions.py 
 contains functions that are intended to be used for STL files of femur bones only. Functions here will receive VTK object that are segments of the femur and identify landmarks on the femur to perform measurements 
 
-# _02_tibia_functions.py 
+## _02_tibia_functions.py 
 contains functions to measure tibia parameters. 
 
-# _03_misc_functions.py 
+## _03_misc_functions.py 
 contains functions used by femur and tibia measurement functtions. These misc functions uses mathematical methods such as circle fitting that are needed to find parameters on the bones. Uses scipy, matplotlib  
