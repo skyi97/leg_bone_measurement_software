@@ -1,8 +1,14 @@
 This repository contains codes developed during my final year research project from 2021 - 2022. 
-The research project aimed to investigate anatomical variation in human leg bones between different population group.
+
+# Background
+This project first came into idea when my supervisors went to some conferences for orthopaedic surgeries. There were famous orthopaedic surgeons from many countries there, and at some point there was a heated debate on how to approach Total Knee Replacement Surgeries. Surgeons from America would say they need to start with a certain section of the femur because they were the biggest part that obstructed view, while surgeons from France would not understand their viewpoint at all. After few hours of the discussion, the participants at the conference realised the leg bones they would deal with during TKR surgeries are different. The participants at this conference took away that there are variation in shapes and sizes of lower leg bones of humans according to ethnicity and population groups, but there haven't been a proper study done to investigate this properly.
+
+This project aimed to investigate and prove that the variation in shapes and sizes of lower leg bones between populations does exist. If significant difference did exist, than it would advocate another hypothesis that success rate of TKR can be increased by appropriately reflecting the ethnic background of the patient and using different surgical approaches to tailor to their bone shapes.
+
 To acheive the object, codes in this repository was developed to automate the process of measuring different parameters such as dimensions and angles that are used by academics to study the leg bones.
 The below code was used to process 464 femur and tibia bones and measured 19 different parameters on femurs and tibia. 
-The measurements were used for stastical analysis that indicated difference between population groups does exist.
+
+The resultsing measurements were used to perform stastical analysis. Statistical  indicated difference between population groups does exist.
 
 The codes in this library is intended to be used with VTK library which loads 3D models of leg bones STL file format and create VTK objects to allow manipulations actions such as rotation and translation.
 
