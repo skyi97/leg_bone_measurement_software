@@ -5,7 +5,7 @@ This repository contains extracts from software developed in 2021-2022 for a res
 # About the program
 The codes in this repository is intended to only showcase my skills and experience in development, and will not run properly as it has other owned dependeices that was omitted on purpose.
 
-The program written for this research used framework developed in-house that utilised Python implementation of the VTK (Visualisation Toolkit) library that was used to read the 3D model of the bones to allow manipulation. The program can perform measurements, create new objects in the model to represent the measured dimensions and render them for our visualisation
+The program written for this research used framework developed in-house that utilised Python implementation of the VTK (Visualisation Toolkit) library that was used to read the 3D model of the bones to allow manipulation. The program can identify bone landmarks, perform measurements of parameters, create new objects in the model to represent the measured dimensions and render them for our visualisation
 
 Example of a femur bone with some visual representations of the measurements
 ![image](https://github.com/user-attachments/assets/cea0c15b-45af-44c9-a52a-4c7d5b2431d8)
