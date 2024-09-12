@@ -1,6 +1,17 @@
 This repository contains extracts from software developed in 2021-2022 for a research. This is a extract only to demonstrate my capabilities, they will not run without the other dependencies which have been omitted on purpose 
 
+# Summary of the project
+There have always been contextual evidence between orthopaedic surgeons that the shapes and sizes of lower leg bones, such as femur and tibia, differed by population groups in different parts of the world. 
 
+Efforts into proving this was always difficult as performing measurements on the bone was a highly manual process performed by doctors and also needed real bones of the deceased from each population.
+
+To find a way to overcome this challenge, we proposed a way to complete this measurements computationally, using 3D models of human leg bones created from CT scans of real people from each population. By implementing the highly manual measurements process required for the comparative study into code, it would be possible to process hundreds of bones quickly to obtain data of the measurement and use the data for comparative study.
+
+Through literature reviews, I identified 19 parameters for femur and tibia that are used to 'define' the bones. Many of these techniques required the bone to be aligned in a certain way, and bone landmarks to be identified. 
+
+I developed a software and implemented algorithms that calculates the central axis of the bones and aligns the entire bone to that axis, then proceed to identify bone landmarks, finally performing measurements.
+
+Once the software was finished, we used the software to perform measurements on 464 bones to perform the comparative study and draw conclusion that significance difference exists between each population group.
 
 # About the program
 The codes in this repository is intended to only showcase my skills and experience in development, and will not run properly as it has other owned dependeices that was omitted on purpose.
